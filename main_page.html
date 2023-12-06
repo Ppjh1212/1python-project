@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./이미지/Group 14.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <title>MODUM</title>
+    <link rel="stylesheet" href="./project_2.css" />
+  </head>
+  <body>
+    <div id="courses-container" class="courses-container">
+      <!-- 동적으로 추가되는 강의들이 여기에 들어갑니다 -->
+  </div>
+    <script defer src="./script_2s.js"></script>
+    <script defer src="./script.js"></script>
+    <div class="container">
+      <div class="header">
+        <div class="navigation">
+          <a id="logo_submit" href="#">
+            <img
+              class="logo"
+              src="./이미지/modum.png"
+              alt="Logo"
+              aria-placeholder="강의 모음사이트"
+            />
+          </a>
+          <a class="event_hover" href="#">메인 홈</a>
+          <a class="event_hover" href="#">개발자 강의</a>
+          <a class="event_hover" href="#">강의 전체</a>
+          <form id="searchForm">
+            <input
+              type="text"
+              id="keyword"
+              name="keyword"
+              required
+              maxlength="15"
+              placeholder="search"
+            />
+            <button type="submit" id="searchButton">
+              <img src="./이미지/검색 아이콘..png" />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="promo-image">
+        <img src="./이미지/55lijl.jpg" alt="Promotional Image" />
+      </div>
+
+      <div class="section-title">- 인기 강의 목록 -</div>
+
+      <div class="courses-container">
+        <!-- Course 1 -->
+        <div class="course">
+          <a
+            href="https://www.inflearn.com/course/%ED%94%BC%EA%B7%B8%EB%A7%88-%EC%9E%85%EB%AC%B8-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90"
+            target="_blank"
+          >
+            <img src="./이미지/피그마.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                UX/UI 시작하기: Figma 입문 (Inflearn Original)
+              </div>
+              <div class="course-price">인프런 강의 55,000￦</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course">
+          <a
+            href="https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90"
+            target="_blank"
+          >
+            <img src="./이미지/파이썬.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                프로그래밍 시작하기: 파이썬 입문 (Inflearn Original)
+              </div>
+              <div class="course-price">인프런 강의 33,000￦</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course">
+          <a href="https://www.udemy.com/course/best-react/" target="_blank">
+            <img src="./이미지/리액트.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                React 완벽 가이드 with Redux, Next.js, TypeScript
+              </div>
+              <div class="course-price">유데미 강의 88,000￦</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="course">
+          <a
+            href="https://www.inflearn.com/course/java-algorithm"
+            target="_blank"
+          >
+            <img src="./이미지/자바.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                자바(Java) 알고리즘 문제풀이 입문: 코딩테스트 대비
+              </div>
+              <div class="course-price">인프런 강의 55,000￦</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div class="course">
+          <a href="https://codingapple.com" target="_blank">
+            <img src="./이미지/안드로이드.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                현직개발자가 알려주는 안드로이드 앱 개발
+              </div>
+              <div class="course-price">코딩 애플 무료</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 6 (가상의 강의) -->
+        <div class="course">
+          <a
+            href="https://nomadcoders.co/javascript-for-beginners"
+            target="_blank"
+          >
+            <img src="./이미지/노마드 js.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                바닐라 JS로 크롬 앱 만들기 Javascript for Beginners
+              </div>
+              <div class="course-price">Nomad Coders 무료</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 7 (가상의 강의) -->
+        <div class="course">
+          <a
+            href="https://youtu.be/xlvtnoKKl68?si=gXW3XlSiv1q6WrVl"
+            target="_blank"
+          >
+            <img src="./이미지/화면 캡처 포토샵.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">
+                포토샵 기초 끝내드립니다...... (How to use Adobe Photoshop cc
+                2021)
+              </div>
+              <div class="course-price">YouTube IB 96 무료</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 8 (가상의 강의) -->
+        <div class="course">
+          <a
+            href="https://nomadcoders.co/typescript-for-beginners"
+            target="_blank"
+          >
+            <img
+              src="./이미지/typescript-for-beginners.jpg "
+              alt="Course Image"
+            />
+            <div class="course-details">
+              <div class="course-title">
+                타입스크립트로 블록체인 만들기 Typescript for Beginners
+              </div>
+              <div class="course-price">Nomad Coders 무료</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 9 (가상의 강의) -->
+        <div class="course">
+          <a href="https://www.example.com" target="_blank">
+            <img src="./이미지/dd5.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">가상의 강의: 웹 개발 기초</div>
+              <div class="course-price">가상 강의 42,000￦</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+
+        <!-- Course 10 (가상의 강의) -->
+        <div class="course">
+          <a href="https://www.example.com" target="_blank">
+            <img src="./이미지/23rsfd.png" alt="Course Image" />
+            <div class="course-details">
+              <div class="course-title">가상의 강의: 웹 개발 기초</div>
+              <div class="course-price">가상 강의 42,000￦</div>
+            </div>
+          </a>
+          <div class="course-description">
+            <!-- Add course description here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 강의 페이지 컨트롤을 위한 화살표 아이콘 및 페이지 번호 추가 -->
+      <div class="page-controls">
+        <a href="#" class="prev-page" onclick="changePage(-1)">❮</a>
+        <span class="page-number">1</span>
+        <a href="#" class="next-page" onclick="changePage(1)">❯</a>
+      </div>
+
+      <div class="footer">
+        &copy; 2023 FaB. | 저작권 관련 내용 포함 : 인프런, 유데미 , 코딩 애플
+        이미지 및 강의 사용함
+      </div>
+    </div>
+  </body>
+</html>
